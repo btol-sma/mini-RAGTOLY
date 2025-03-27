@@ -14,24 +14,26 @@ To create the environment, run the following command:
 
 ```bash
 $ conda create -n mini-rag python=3.8
+  ```
 
 ### Activate the environment
 ```bash
 $ conda activate mini-rag
+  ```
 
 ## Installation
 1. Install the required packages  
 ```bash 
 $ pip install -r requirements.txt
-
+  ```
 2. Setup the environment variables 
 ```bash 
 $ cp .env.example .env
-
+  ```
 3. Run the FastAPI server
 ```bash
 $ uvicorn main:app --reload --host 0.0.0.0 --port 5000
-
+  ```
 ## FastAPI Setup
 - The server will run on http://127.0.0.1:5000.
 - You can access the interactive API documentation at http://127.0.0.1:5000/docs.
