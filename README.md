@@ -1,2 +1,2 @@
-#Toly-Rag: A Minimal Implementation of RAG Model
-This project is a minimal implementation of the RAG (Retriever-augmented generation) . It is based on the tutorial for creating a RAG model from scratch [mini-RAG | From notebooks to the PRODUCTION] (https://youtube.com/playlist?list=PLvLvlVqNQGHCUR2p0b8a0QpVjDUg50wQj&si=up6PyBEHtkLrrfHb) , and it's been structured using Clean Architecture for better maintainability, scalability, and separation of concerns.
+# Toly-Rag: A Minimal Implementation of RAG Model
+This project is a minimal implementation of the RAG (Retriever-augmented generation) . It is based on the tutorial for creating a RAG model from scratch [mini-RAG | From notebooks to the PRODUCTION](https://youtube.com/playlist?list=PLvLvlVqNQGHCUR2p0b8a0QpVjDUg50wQj&si=up6PyBEHtkLrrfHb) , and it's been structured using Clean Architecture for better maintainability, scalability, and separation of concerns.
