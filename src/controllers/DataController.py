@@ -2,6 +2,7 @@ from controllers.BaseController import BaseController
 from controllers.ProjectController import ProjectController
 from fastapi import UploadFile
 from models import ResponseSignal
+
 import re , os
 
 class DataController(BaseController):
@@ -22,7 +23,7 @@ class DataController(BaseController):
          return True, ResponseSignal.FILE_UPLOAD_SUCCESS.value
     
 
-    def generate_filename(self, filename:str, project_id):
+    def generate_filepath(self, filename:str, project_id):
         random_filename = self.generate_random_string()
         project_path = ProjectController().get_project_path(project_id=project_id)
         clean_filename = self.get_clean_filename(filename=filename)
@@ -36,7 +37,7 @@ class DataController(BaseController):
             project_path, random_filename+"_"+ clean_filename
         )
             
-        return new_filename
+        return new_filename , random_filename+"_"+ clean_filename
 
 
     def get_clean_filename(self, filename :str):

@@ -37,5 +37,3 @@ $ uvicorn main:app --reload --host 0.0.0.0 --port 5000
 ## FastAPI Setup
 - The server will run on http://127.0.0.1:5000.
 - You can access the interactive API documentation at http://127.0.0.1:5000/docs.
-
-
