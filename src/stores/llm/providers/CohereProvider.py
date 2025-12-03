@@ -1,7 +1,7 @@
-from ...LLMInterface import LLMInterface
+from ..LLMInterface import LLMInterface
 from openai import OpenAI
 import logging
-from ...LLMEnums import CohereEnums, DocumentType
+from ..LLMEnums import CohereEnums, DocumentType
 import cohere
 
 
